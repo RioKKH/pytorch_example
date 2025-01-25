@@ -1,0 +1,7 @@
+data
+model*
+.git
+.venv
+.cache
+.ipynb_checkpoints
+.virtual_documents
