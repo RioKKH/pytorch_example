@@ -10,7 +10,7 @@ from torch.utils.data import DataLoader
 # CIFAR-10のデータ変換(データ拡張を含む)
 transform = transforms.Compose(
     [
-        transforms.RandomHorizontalFlip(),
+        transforms.RandomHorizontalFlip(),  # 画像をランダムに水平反転させる
         transforms.RandomCrop(32, padding=4),
         transforms.ToTensor(),
         transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010)),
